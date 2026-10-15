@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# The 2017 tree committed a Python 2.7 virtualenv and Lambda build zips.
+shortenerenv/
+dist/
+build/
+*.zip
+
+# Editors and local secrets
+.vscode/
+.idea/
+.env
+*.pem

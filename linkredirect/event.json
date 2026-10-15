@@ -1,4 +1,7 @@
 {
-  "pi": 3.14,
-  "e": 2.718
+  "params": {
+    "path": {
+      "shorturl": "0123456789abcdef0123456789abcdef"
+    }
+  }
 }
