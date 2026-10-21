@@ -1,0 +1,6 @@
+# Direct runtime dependencies, pinned.
+# Lambda provides boto3. Install it here for local runs and tests.
+# opensearch-py is imported only when ELASTICSEARCH_URL is set. Package it
+# into the link_redirect zip when hit logging is turned on (see README).
+boto3==1.43.114
+opensearch-py==3.2.0
